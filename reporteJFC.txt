@@ -1,0 +1,355 @@
+!/bin/bash
+date 
+echo "Juliana Franco Correa"
+echo "Calcularemos el tamaño de nucleótidos de una seq fasta dada"
+sed 1d sequence.fasta > count.fasta #Para borrar primera línea y meter en archivo nuevo. 
+wc -m count.fasta #Cálculo del nucleotide size.
+chmod 755 Task1_JulianaFC.sh #Para volver el archivo ejecutable, se cambian los permisos. 	
+
+    1  python +
+    2  pwd
+    3  ls
+    4  pwd
+    5  cd ..
+    6  pwd
+    7  cd juliana
+    8  pwd
+    9  mkdir Computacional
+   10  ls
+   11  cd Computacional
+   12  pd
+   13  pwd
+   14  ls -lha > list.txt
+   15  ls
+   16  less list.txt
+   17  cat list.txt
+   18  cat list.txt
+   19  ls -lh > lista.txt
+   20  cat list.txt lista.txt
+   21  more list.txt
+   22  pwd
+   23  cp list.txt ..
+   24  ls ..
+   25  mv list.txt /Users/juliana/Computacional
+   26  pwd
+   27  cd /Users/juliana/Computacional
+   28  cd juliana
+   29  pwd
+   30  cd ..
+   31  cd Computacional
+   32  pwd
+   33  ls . 
+   34  mv list.txt final.txt
+   35  ls
+   36  rm lista.txt
+   37  ls
+   38  ls -a
+   39  cd .
+   40  man -a
+   41  man a
+   42  man ls
+   43  cd ~
+   44  pwd
+   45  cd Computacional
+   46  ls -l
+   47  vi
+   48  nno
+   49  nano
+   50  vim
+   51  ls
+   52  vim final.txt
+   53  vim final.txt
+   54  less final.txt
+   55  more final.txt
+   56  rm final.txt
+   57  ls
+   58  ls -a
+   59  mv sequence.fasta /Users/juliana/Computacional
+   60  pwd
+   61  ls
+   62  mv sequence.fasta /Users/juliana/Computacional
+   63  mv /Users/juliana/Desktop/sequence.fasta /Users/juliana/Computacional
+   64  ls
+   65  grep ">" sequence.fasta
+   66  grep -c ">" sequence.fasta
+   67  pwd
+   68  cd Computacional
+   69  ssh
+   70  man ssh
+   71  echo "Hola Bash"
+   72  echo "Hola estrellitas, la tierra les dice hola"
+   73  echo "Alejo que hay que hacer?"
+   74  cd Computacional
+   75  pwd
+   76  vim
+   77  ls .
+   78  bash julianaprueba.txt
+   79  ls
+   80  vim julianaprueba.txt
+   81  ls
+   82  bash julianaprueba.txt
+   83  ls
+   84  echo "turu tu tu tu"
+   85  vim julianaprueba.txt
+   86  bash julianaprueba.txt
+   87  cd Computacional
+   88  ls
+   89  bash julianaprueba.txt
+   90  echo "Alejo es muy raro"
+   91  less julianaprueba.txt
+   92  less julianaprueba.txt
+   93  less ejecutar_pueba.txt
+   94  less ejecutar_prueba.txt
+   95  less ejecutar_prueba.sh
+   96  q
+   97  pwd
+   98  ls -l
+   99  echo "DNA! > words.txt
+  100  echo "DNA" > words.txt
+  101  echo "RNA" > words.txt
+  102  ls
+  103  cd rm words.txt
+  104  rm words.txt
+  105  ls
+  106  cd Computacional
+  107  ls
+  108  echo "DNA" > words.txt
+  109  echo "RNA" >> words.txt
+  110  echo "PROTEINS" >> words.txt
+  111  echo "LIPIDS" >> words.txt
+  112  less words.txt
+  113  less words.txt
+  114  for word in $(cat words.txt); do echo $word; done
+  115  num = 9 
+  116  num=9
+  117  echo "Vamos a x por:" $num
+  118  for i in `seq 1 10`; do  echo $num*$i = & (($num*$i)); done
+  119  cd Computacional
+  120  num=9
+  121  echo "Vamos a X por:" $num
+  122  for i in `seq 1 10`; do  echo $num*$i = $(($num*$i))
+  123  cd Computacional
+  124  num=9
+  125  echo "Vamos a X por:" $num
+  126  for i in `seq 1 10`; do echo $num*$i = $(($num*$i)); done
+  127  T1="bioinfo"
+  128  T2="bioinfo"
+  129  if [ "$T1" = "$T2" ]; then  echo expression evaluated as true; else  echo expression evaluated as false; fi
+  130  mkdir biocomp
+  131  ls
+  132  cd biocomp
+  133  mkdir Ejercicios_linux
+  134  ls
+  135  "_"
+  136  ..
+  137  cd ..
+  138  python -v
+  139  python
+  140  python3
+  141  biocompu
+  142  cd biocompu
+  143  cd Computacional
+  144  ls
+  145  cd biocomp
+  146  conda
+  147  conda create --name Localblast
+  148  conda env list
+  149  conda activate Localblast
+  150  conda list
+  151  conda install -c bioconda blast
+  152  conda deactivate
+  153  .
+  154  pwd
+  155  ls
+  156  cd Ejercicios-linux
+  157  cd Ejercicios_linux
+  158  echo "Hoy es:"
+  159  date
+  160  echo "Hoy es:" date
+  161  date
+  162  cd Computacional
+  163  ls
+  164  cd biocomo
+  165  cd biocomp
+  166  ls
+  167  cd Ejercicios_linux
+  168  ls
+  169  pwd
+  170  vim
+  171  ls
+  172  vim Task1_JulianaFc
+  173  less Task1_JulianaFC
+  174  vim Task1_JulianaFC
+  175  man grep
+  176  cd..
+  177  cd .
+  178  cd..
+  179  cd ../
+  180  cd ../
+  181  grep -1 sequence.fasta
+  182  pwd
+  183  cd Computacional
+  184  ls
+  185  vim sequence.fasta
+  186  grep -1
+  187  grep -1 sequence.fasta
+  188  cd Computacional
+  189  man head
+  190  head -2 sequence.fasta
+  191  less sequence.fasta
+  192  man wc
+  193  wc -m sequence.fasta
+  194  less sequence.fasta
+  195  man grep
+  196  grep -A "cds" sequence.fasta
+  197  grep "cds" sequenc.fasta
+  198  grep "cds" sequence.fasta
+  199  man grep
+  200  grep "A" sequence.fasta
+  201  grep -a "cds" sequence.fasta
+  202  grep "AT" sequence.fasta
+  203  man head
+  204  man tail
+  205  man less
+  206  man cat
+  207  man cat
+  208  man cat
+  209  cat -n sequence.fasta
+  210  cd biocomp
+  211  ls
+  212  cd Ejercicios_linux
+  213  ls
+  214  vim Task1_JulianaFC.sh
+  215  rm Task1_JulianaFC
+  216  ls
+  217  cd ../
+  218  cd ../
+  219  pwd
+  220  man sed
+  221  sed 1,2d sequence.fasta > countseq.fasta
+  222  ls
+  223  less countseq.fasta
+  224  less sequence.fasta
+  225  rm countseq.fasta
+  226  sed 1d sequence.fasta > countseq.fasta
+  227  less countseq.fasta
+  228  cd biocompu
+  229  s
+  230  ls
+  231  cd biocomp
+  232  cd Ejercicios_linux
+  233  vim Task1_JulianaFC.sh
+  234  echo "Calcularemos el tamaño de nucleótidos de una seq fasta dada"
+  235  for item in $(sed 1d sequence.fasta); do         echo wc -n $item; done
+  236   pwd
+  237  cd /Users/juliana/Computacional
+  238  pwd
+  239  cp sequence.fasta /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  240  cd /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  241  ls
+  242  for item in $(sed 1d sequence.fasta); do echo wc -n $item; done
+  243  for item in $(sed 1d sequence.fasta); do echo $item > count.fasta; done
+  244  ls
+  245  less count.fasta
+  246  less count.fasta
+  247  less count.fasta
+  248  for item in $(sed 1d sequence.fasta); do > echo $item > count.fasta; > done;  q;  q
+  249  pwd
+  250  cd /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  251  pwd
+  252  ls
+  253  rm count.fasta
+  254  for item in $(sed 1d sequence.fasta); do $item > count.fasta; done
+  255  less count.fasta
+  256  for item in $(sed 1d sequence.fasta); do echo $item > count.fasta; done
+  257  less count.fasta
+  258  rm count.fasta
+  259  man wc
+  260  for item in $(sed 1d sequence.fasta); do echo wc -m $item; done
+  261  for item in $(sed 1d sequence.fasta); do  echo "$item"; done
+  262  for item in $(sed 1d sequence.fasta); do  > echo "$item" > count1.fasta; done
+  263   for item in $(sed 1d sequence.fasta); do  > echo wc -m  "$item"; done
+  264  for item in $(sed 1d sequence.fasta); do  cat $item > count1.fasta; done
+  265  ls
+  266  rm echo
+  267  rm count1.fasta
+  268  ls
+  269  vim sequence.fasta
+  270  pwd
+  271  cd /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  272  ls
+  273  vim Task1_JulianaFC.sh
+  274  ls
+  275  pwd
+  276  cd /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  277  ls
+  278  less Task1_JulianaFC
+  279  (base) Julianas-MacBook-Pro:Ejercicios_linux juliana$  less Task1_JulianaFC.sh
+  280  less Task_JulianaFC.sh
+  281  less Task1_JulianaFC.sh
+  282  vim Task1_JulianaFC.sh
+  283  vim Task1_JulianaFC.sh
+  284  vim -r Task1_JulianaFC.sh
+  285  ls
+  286  for item in $(sed 1d sequence.fasta); do  wc -m $item; done
+  287  wc -m $(sed 1d sequence.fasta)
+  288  sed 1d sequence.fasta > count.fasta
+  289  ls
+  290  less count.fasta
+  291  wc -m count.fasta
+  292  less count.fasta
+  293  less count.fasta
+  294  vim Task1_JulianaFC.sh
+  295  rm  Task1_JulianaFC.sh:sw
+  296  vim Task1_JulianaFC.sh
+  297  rm .Task1_JulianaFC.sh.swp
+  298  vim Task1_JulianaFC.sh
+  299  pwd
+  300  date / echo "Juliana Franco Correa"
+  301  echo "Calcularemos el tamaño de nucleótidos de una seq fasta dada"
+  302  for item in $(sed 1d sequence.fasta); do sed 1d sequence.fasta > count.fasta #Para borrar primera línea y meter en archivo nuevo. ; wc -m count.fasta #nucleotide size; 
+  303  pw
+  304  pwd
+  305  cd /Users/juliana
+  306  cd /Users/juliana
+  307  cd /Users/juliana
+  308  cd /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  309  pwd
+  310  ls
+  311  vim Task1_JulianaFC.sh
+  312  vim -r Task1_JulianaFC.sh
+  313  pwd
+  314  cd /Users/juliana/Computacional/biocomp/Ejercicios_linux
+  315  pwd
+  316  vim -r Task1_JulianaFC.sh
+  317  ls
+  318  vim Task1_JulianaFC.sh
+  319  vim -r Task1_JulianaFC.sh
+  320  vim Task1_JulianaFC.sh
+  321  Task1_JulianaFC.sh.swp
+  322  rm Task1_JulianaFC.sh.swp
+  323  vim Task1_JulianaFC.sh
+  324  rm .Task1_JulianaFC.sh.swp
+  325  vim Task1_JulianaFC.sh
+  326  ls
+  327  cd Users/juliana/Computacional/biocomp/Ejercicios_linux
+  328  ls
+  329  pwd
+  330  cd Computacional
+  331  cd biocomp
+  332  cd Ejercicios_linux
+  333  pwd
+  334  ls
+  335  vim Task1_JulianaFC.sh
+  336  bash Task1_JulianaFC.sh
+  337  cat Task1_JulianaFC.sh > reporteJFC.txt
+  338  less reporteJFC.txt
+  339  history >> reporteJFC.txt
+  340  less reporteJFC.txt
+  341  vim Task1_JulianaFC.sh
+  342  bash Task1_JulianaFC.sh
+  343  ls
+  344  rm reporteJFC.txt
+  345  cat Task1_JulianaFC.sh > reporteJFC.txt
+  346  ls 
+  347  history >> reporteJFC.txt
